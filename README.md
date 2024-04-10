@@ -27,3 +27,5 @@ How run without shell file
 How to run with shell file
 1. sh build_project.sh
 
+   (if you are getting errors while building project, delete the build folder and follow the above steps again)
+
