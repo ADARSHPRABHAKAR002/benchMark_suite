@@ -1,0 +1,18 @@
+=== Current Time ===
+Current Time: Thu Apr 11 16:38:02 2024
+
+=== System Configurations ===
+Operating System: Linux
+Number of CPU Cores: 4
+Total Memory: 1776 MB
+
+=== Memory Intensive Operation ===
+Time taken for memory-intensive operation: 16 ms
+
+=== Computaional Intensive Operation ===
+Time taken for computataional-intensive operation: 21 ms
+
+=== Branch Intensive Operation ===
+Time taken for branch-intensive operation: 16 ms
+
+=== Total Time ===

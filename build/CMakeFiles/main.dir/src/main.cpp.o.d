@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/main.cpp \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,19 +144,19 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/TimePrinter.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/TimePrinter.h \
  /usr/include/c++/11/ctime \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/SystemConfiguration.h \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/Chrono_timer.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/SystemConfiguration.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/Chrono_timer.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/bits/parse_numbers.h \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/MemoryIntensiveCalculator.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/MemoryIntensiveCalculator.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/ComputationalIntensiveTask.h \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/BranchIntensiveTask.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/ComputationalIntensiveTask.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/BranchIntensiveTask.h \
  /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

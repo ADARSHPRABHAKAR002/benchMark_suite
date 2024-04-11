@@ -5,7 +5,7 @@
 
 class ComputationalIntensiveTask {
 public:
-    
+    // Constructor
     ComputationalIntensiveTask(const std::vector<int>& vec);
 
     // Function to perform computationally intensive task

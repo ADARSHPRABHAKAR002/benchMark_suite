@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include
+CXX_INCLUDES = -I"/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/include"
 
 CXX_FLAGS = -std=gnu++11
 

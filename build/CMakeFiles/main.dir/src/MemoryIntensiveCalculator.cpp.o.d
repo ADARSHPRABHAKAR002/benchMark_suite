@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o: \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/MemoryIntensiveCalculator.cpp \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/src/MemoryIntensiveCalculator.cpp \
  /usr/include/stdc-predef.h \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/MemoryIntensiveCalculator.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/MemoryIntensiveCalculator.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

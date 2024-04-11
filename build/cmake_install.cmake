@@ -1,4 +1,4 @@
-# Install script for directory: /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite
+# Install script for directory: /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

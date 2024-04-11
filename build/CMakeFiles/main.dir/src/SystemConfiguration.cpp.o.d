@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.o: \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/SystemConfiguration.cpp \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/src/SystemConfiguration.cpp \
  /usr/include/stdc-predef.h \
- /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/include/SystemConfiguration.h \
+ /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta\ veriosn/include/SystemConfiguration.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

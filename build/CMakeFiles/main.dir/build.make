@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite
+CMAKE_SOURCE_DIR = "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build
+CMAKE_BINARY_DIR = "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o: ../src/BranchIntensiveTask.cpp
 CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o -MF CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o.d -o CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/BranchIntensiveTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o -MF CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o.d -o CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/BranchIntensiveTask.cpp"
 
 CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/BranchIntensiveTask.cpp > CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/BranchIntensiveTask.cpp" > CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.i
 
 CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/BranchIntensiveTask.cpp -o CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/BranchIntensiveTask.cpp" -o CMakeFiles/main.dir/src/BranchIntensiveTask.cpp.s
 
 CMakeFiles/main.dir/src/Chrono_timer.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Chrono_timer.cpp.o: ../src/Chrono_timer.cpp
 CMakeFiles/main.dir/src/Chrono_timer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Chrono_timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Chrono_timer.cpp.o -MF CMakeFiles/main.dir/src/Chrono_timer.cpp.o.d -o CMakeFiles/main.dir/src/Chrono_timer.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/Chrono_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Chrono_timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Chrono_timer.cpp.o -MF CMakeFiles/main.dir/src/Chrono_timer.cpp.o.d -o CMakeFiles/main.dir/src/Chrono_timer.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/Chrono_timer.cpp"
 
 CMakeFiles/main.dir/src/Chrono_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Chrono_timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/Chrono_timer.cpp > CMakeFiles/main.dir/src/Chrono_timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/Chrono_timer.cpp" > CMakeFiles/main.dir/src/Chrono_timer.cpp.i
 
 CMakeFiles/main.dir/src/Chrono_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Chrono_timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/Chrono_timer.cpp -o CMakeFiles/main.dir/src/Chrono_timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/Chrono_timer.cpp" -o CMakeFiles/main.dir/src/Chrono_timer.cpp.s
 
 CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o: ../src/ComputationalIntensiveTask.cpp
 CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o -MF CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o.d -o CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/ComputationalIntensiveTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o -MF CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o.d -o CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/ComputationalIntensiveTask.cpp"
 
 CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/ComputationalIntensiveTask.cpp > CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/ComputationalIntensiveTask.cpp" > CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.i
 
 CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/ComputationalIntensiveTask.cpp -o CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/ComputationalIntensiveTask.cpp" -o CMakeFiles/main.dir/src/ComputationalIntensiveTask.cpp.s
 
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o: ../src/MemoryIntensiveCalculator.cpp
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o -MF CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o.d -o CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/MemoryIntensiveCalculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o -MF CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o.d -o CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/MemoryIntensiveCalculator.cpp"
 
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/MemoryIntensiveCalculator.cpp > CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/MemoryIntensiveCalculator.cpp" > CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.i
 
 CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/MemoryIntensiveCalculator.cpp -o CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/MemoryIntensiveCalculator.cpp" -o CMakeFiles/main.dir/src/MemoryIntensiveCalculator.cpp.s
 
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.o: ../src/SystemConfiguration.cpp
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/SystemConfiguration.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SystemConfiguration.cpp.o -MF CMakeFiles/main.dir/src/SystemConfiguration.cpp.o.d -o CMakeFiles/main.dir/src/SystemConfiguration.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/SystemConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/SystemConfiguration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SystemConfiguration.cpp.o -MF CMakeFiles/main.dir/src/SystemConfiguration.cpp.o.d -o CMakeFiles/main.dir/src/SystemConfiguration.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/SystemConfiguration.cpp"
 
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/SystemConfiguration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/SystemConfiguration.cpp > CMakeFiles/main.dir/src/SystemConfiguration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/SystemConfiguration.cpp" > CMakeFiles/main.dir/src/SystemConfiguration.cpp.i
 
 CMakeFiles/main.dir/src/SystemConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/SystemConfiguration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/SystemConfiguration.cpp -o CMakeFiles/main.dir/src/SystemConfiguration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/SystemConfiguration.cpp" -o CMakeFiles/main.dir/src/SystemConfiguration.cpp.s
 
 CMakeFiles/main.dir/src/TimePrinter.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/TimePrinter.cpp.o: ../src/TimePrinter.cpp
 CMakeFiles/main.dir/src/TimePrinter.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/TimePrinter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/TimePrinter.cpp.o -MF CMakeFiles/main.dir/src/TimePrinter.cpp.o.d -o CMakeFiles/main.dir/src/TimePrinter.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/TimePrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/TimePrinter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/TimePrinter.cpp.o -MF CMakeFiles/main.dir/src/TimePrinter.cpp.o.d -o CMakeFiles/main.dir/src/TimePrinter.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/TimePrinter.cpp"
 
 CMakeFiles/main.dir/src/TimePrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/TimePrinter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/TimePrinter.cpp > CMakeFiles/main.dir/src/TimePrinter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/TimePrinter.cpp" > CMakeFiles/main.dir/src/TimePrinter.cpp.i
 
 CMakeFiles/main.dir/src/TimePrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/TimePrinter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/TimePrinter.cpp -o CMakeFiles/main.dir/src/TimePrinter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/TimePrinter.cpp" -o CMakeFiles/main.dir/src/TimePrinter.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/main.cpp"
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/main.cpp" > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/src/main.cpp" -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -189,7 +189,7 @@ main: CMakeFiles/main.dir/src/TimePrinter.cpp.o
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build /home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/benchMark_suite/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn" "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn" "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build" "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build" "/home/adarsh/Desktop/Embedded_Systems/2_sem_Internship_project/beta veriosn/build/CMakeFiles/main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
