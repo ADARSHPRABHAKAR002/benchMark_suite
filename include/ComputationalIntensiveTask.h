@@ -1,18 +1,27 @@
-#ifndef COMPUTATIONAL_INTENSIVE_TASK_H
-#define COMPUTATIONAL_INTENSIVE_TASK_H
+#ifndef COMPUTATIONAL_INTENSIVETASK_HPP
+#define COMPUTATIONAL_INTENSIVETASK_HPP
 
 #include <vector>
+#include <random>
 
 class ComputationalIntensiveTask {
-public:
-    // Constructor
-    ComputationalIntensiveTask(const std::vector<int>& vec);
-
-    // Function to perform computationally intensive task
-    long long computeTask();
-
 private:
-    std::vector<int> vec;
+    int dimensions;
+    int numSamples;
+    std::mt19937_64 rng;
+    std::uniform_real_distribution<double> dist;
+
+    
+    
+    double complexFunction(const std::vector<double>& point);
+
+public:
+    // Constructor 
+    ComputationalIntensiveTask(int dimensions, int numSamples);
+
+    // Monte Carlo integration method
+    double monteCarloIntegration();
 };
 
-#endif
+#endif // COMPUTATIONALINTENSIVETASK_HPP
+

@@ -1,0 +1,10 @@
+^E:\ME\INTERSHIP\2_SEM_INTERNSHIP_PROJECT\GIT HUB\BENCHMARK_SUITE_11_04_24\BETA VERIOSN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn" "-BE:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build" --check-stamp-file "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,16 +1,40 @@
 #include "MemoryIntensiveCalculator.h"
+#include <cstdlib>
+#include <ctime>
+#include <algorithm>
+#include <iostream>
 
-std::vector<std::vector<int>> MemoryIntensiveCalculator::generateLargeMatrix(int rows, int cols) {
-    // Create a 2D vector to represent the matrix
-    std::vector<std::vector<int>> matrix(rows, std::vector<int>(cols));
+MemoryIntensiveCalculator::MemoryIntensiveCalculator() {
+    data = new int[arraySize];
+}
 
-    // Fill the matrix with some data (for demonstration purpose)
-    int value = 1;
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            matrix[i][j] = value++;
-        }
+MemoryIntensiveCalculator::~MemoryIntensiveCalculator() {
+    delete[] data;
+}
+
+void MemoryIntensiveCalculator::performTask() {
+   
+    srand(static_cast<unsigned>(time(nullptr)));
+    for (int i = 0; i < arraySize; ++i) {
+        data[i] = rand();
     }
 
-    return matrix;
+   
+    for (int i = 0; i < arraySize / 2; ++i) {
+        // Copy elements
+        data[i + arraySize / 2] = data[i];
+        // Swap elements
+        std::swap(data[i], data[arraySize - i - 1]);
+    }
+
+   
+    std::sort(data, data + arraySize);
+
+   
+    volatile int sum = 0;
+    for (int i = 0; i < arraySize; ++i) {
+        sum += data[i];
+    }
+
+    
 }
