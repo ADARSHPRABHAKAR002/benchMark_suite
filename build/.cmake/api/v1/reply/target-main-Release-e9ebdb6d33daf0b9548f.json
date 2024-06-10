@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/main.exe"
+			"path" : "Release/main.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/main.pdb"
+			"path" : "Release/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/include"
+					"path" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite/include"
 				}
 			],
 			"language" : "CXX",
@@ -88,11 +88,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{

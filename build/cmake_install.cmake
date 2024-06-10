@@ -1,4 +1,4 @@
-# Install script for directory: E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn
+# Install script for directory: E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

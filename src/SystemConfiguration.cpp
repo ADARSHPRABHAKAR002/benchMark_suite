@@ -1,4 +1,9 @@
 #include "SystemConfiguration.h"
+#include <iostream>
+#include <thread>
+#include <string>
+#include <fstream>
+#include <Windows.h>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -9,6 +14,12 @@
 #include <unistd.h>
 #include <sys/sysinfo.h>
 #elif __APPLE__
+#include <sys/sysctl.h>
+#endif
+
+#if defined(__linux__)
+#include <fstream>
+#elif defined(__APPLE__)
 #include <sys/sysctl.h>
 #endif
 
@@ -27,12 +38,85 @@ std::string SystemConfiguration::getOperatingSystem() const {
     return "Unknown";
 #endif
 }
+int SystemConfiguration::getNumCPUCore(SystemConfiguration &obj) const {
+    if(obj.getOperatingSystem()=="Windows")
+    {
+       return obj.getNumCPUCores();
+       //return 0;
+    }
+    else if(obj.getOperatingSystem()=="Linux")
+    {
+        return obj.getNumCPUCores();
+        //return 0;
+    }
+    else if(obj.getOperatingSystem()=="macOS")
+    {
+        return obj.getNumCPUCores();
+        //return 0;
+    }
+    return 0;
 
+}
+/*int SystemConfiguration::Linux_core() const
+{
+    std::ifstream cpuinfo("/proc/cpuinfo");
+    std::string line;
+    int physicalCores = 0;
+    while (std::getline(cpuinfo, line)) {
+        if (line.find("cpu cores") != std::string::npos) {
+            physicalCores = std::stoi(line.substr(line.find(":") + 1));
+            break;
+        }
+    }
+    cpuinfo.close();
+    return physicalCores;
+}
+
+int SystemConfiguration::Mac_core() const
+{
+    int nm[2];
+    size_t len = 4;
+    uint32_t count;
+
+   // nm[0] = CTL_HW;
+    //nm[1] = HW_PHYSICALCPU;
+    //sysctl(nm, 2, &count, &len, NULL, 0);
+
+    return count;
+}
+*/
+/*int SystemConfiguration::Win_core() {
+    SYSTEM_INFO sysInfo;
+    GetSystemInfo(&sysInfo);
+    
+    //DWORD logicalProcessorCount = sysInfo.dwNumberOfProcessors;
+
+    DWORD physicalProcessorCount = 0;
+    DWORD length = 0;
+    GetLogicalProcessorInformation(nullptr, &length);
+
+    SYSTEM_LOGICAL_PROCESSOR_INFORMATION* buffer = (SYSTEM_LOGICAL_PROCESSOR_INFORMATION*)malloc(length);
+    GetLogicalProcessorInformation(buffer, &length);
+
+    DWORD byteOffset = 0;
+    while (byteOffset + sizeof(SYSTEM_LOGICAL_PROCESSOR_INFORMATION) <= length) {
+        if (buffer->Relationship == RelationProcessorCore) {
+            physicalProcessorCount++;
+        }
+        byteOffset += sizeof(SYSTEM_LOGICAL_PROCESSOR_INFORMATION);
+        buffer++;
+    }
+    free(buffer);
+
+    return physicalProcessorCount;
+
+}
+*/
 int SystemConfiguration::getNumCPUCores() const {
 #ifdef _WIN32
     SYSTEM_INFO sysInfo;
     GetSystemInfo(&sysInfo);
-    return sysInfo.dwNumberOfProcessors;
+    return sysInfo.dwNumberOfProcessors/2;
 #elif __linux__ || __APPLE__
     return sysconf(_SC_NPROCESSORS_ONLN);
 #endif
@@ -111,4 +195,27 @@ int SystemConfiguration::getCPUBits() const {
     // Unsupported on Linux and macOS
     return 0;
 #endif
+}
+
+
+int SystemConfiguration::get_threads() const{
+    unsigned int numThreads = std::thread::hardware_concurrency();
+    if (numThreads == 0) {
+        std::cout << "Unable to determine the number of threads." << std::endl;
+        return 0;
+    } else {
+        return numThreads;
+    }
+
+}
+
+int SystemConfiguration::get_logical_processors() const{
+    unsigned int numLogicalProcessors = std::thread::hardware_concurrency();
+    if (numLogicalProcessors == 0) {
+        std::cout << "Unable to determine the number of logical processors." << std::endl;
+        return 0;
+    } else {
+        return numLogicalProcessors;
+    }
+
 }

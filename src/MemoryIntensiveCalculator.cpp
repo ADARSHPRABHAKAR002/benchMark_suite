@@ -27,14 +27,14 @@ void MemoryIntensiveCalculator::performTask() {
         std::swap(data[i], data[arraySize - i - 1]);
     }
 
-   
+
     std::sort(data, data + arraySize);
 
-   
+
     volatile int sum = 0;
     for (int i = 0; i < arraySize; ++i) {
         sum += data[i];
     }
 
-    
+
 }

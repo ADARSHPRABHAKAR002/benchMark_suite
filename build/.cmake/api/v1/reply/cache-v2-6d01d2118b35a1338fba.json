@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build"
+			"value" : "e:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build/CMakeFiles/pkgRedirects"
+			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn"
+			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn/build"
+			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite/build"
 		},
 		{
 			"name" : "MyProject_IS_TOP_LEVEL",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_11_04_24/beta veriosn"
+			"value" : "E:/ME/INTERSHIP/2_sem_Internship_project/git hub/benchMark_suite_04_03_24/benchMark_suite"
 		}
 	],
 	"kind" : "cache",
