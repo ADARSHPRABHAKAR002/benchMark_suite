@@ -65,7 +65,7 @@ int main() {
     auto end_m = std::chrono::high_resolution_clock::now();
     auto duration_m = std::chrono::duration_cast<std::chrono::milliseconds>(end_m - start_m); 
     double avg_mem=duration_m.count()/50;   
-    std::cout << "Avg Time taken for memory-intensive operation: " << avg_mem << " ms" << std::endl;
+    std::cout << "Avg time taken for memory-intensive operation: " << avg_mem << " ms" << std::endl;
     double mem_score_float = ((1/avg_mem)*100)*1000*100;
     int mem_score = (int)mem_score_float;
     std::cout<<"Memory-intensive operation BenchMarkScore: "<<mem_score<<std::endl;
@@ -88,7 +88,7 @@ int main() {
     auto end_c = std::chrono::high_resolution_clock::now();
     auto duration_c = std::chrono::duration_cast<std::chrono::milliseconds>(end_c - start_c);
     double avg_com=duration_c.count()/50;    
-    std::cout << "Time taken for computataional-intensive operation: " << avg_com << " ms" << std::endl;
+    std::cout << "Avg time taken for computataional-intensive operation: " << avg_com << " ms" << std::endl;
     double com_score_float = ((1/avg_com)*100)*1000*100*3;
     int com_score = (int)com_score_float;
     std::cout<<"Computational-intensive operation BenchMarkScore: "<<com_score<<std::endl;
@@ -119,7 +119,7 @@ int main() {
     auto end_b = std::chrono::high_resolution_clock::now();
     auto duration_b = std::chrono::duration_cast<std::chrono::milliseconds>(end_b - start_b);
     double avg_brn=duration_b.count()/50;   
-    std::cout << "Time taken for branch-intensive operation: " <<  avg_brn<< " ms" << std::endl;
+    std::cout << "Avg time taken for branch-intensive operation: " <<  avg_brn<< " ms" << std::endl;
     double brn_score_float = ((1/avg_brn)*100)*1000*100;
     int brn_score = (int)brn_score_float;
     std::cout<<"Branch-intensive operation BenchMarkScore: "<<brn_score<<std::endl;
